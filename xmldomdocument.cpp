@@ -98,7 +98,7 @@ int XmlDomDocument::getRootElementCount(const char* rootElementTag)
 
 void XmlDomDocument::outPutXMLFile(Architecture A)
 {
-    // Initilize Xerces.
+    // Initialisation de Xerces.
     XMLPlatformUtils::Initialize();
 
     // Pointeur sur la DOMImplementation.
